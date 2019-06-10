@@ -4,6 +4,7 @@ import java.util.Date;
 
 public class Comment {
 
+    private String id;
     //评论人头像
     private String icon;
     //评论人昵称
@@ -14,6 +15,14 @@ public class Comment {
     private Date commentTime;
     //评论数
     private int likeNum;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getIcon() {
         return icon;
