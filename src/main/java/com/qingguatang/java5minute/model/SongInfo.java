@@ -1,6 +1,8 @@
 package com.qingguatang.java5minute.model;
 
 public class SongInfo {
+
+    private String id;
     //歌曲名称
     private String name;
     //歌手名称
@@ -12,7 +14,15 @@ public class SongInfo {
     //歌词
     private String lyrics;
     //专辑图片
-    private String albumIng;
+    private String albumImg;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;
@@ -54,11 +64,11 @@ public class SongInfo {
         this.lyrics = lyrics;
     }
 
-    public String getAlbumIng() {
-        return albumIng;
+    public String getAlbumImg() {
+        return albumImg;
     }
 
-    public void setAlbumIng(String albumIng) {
-        this.albumIng = albumIng;
+    public void setAlbumImg(String albumImg) {
+        this.albumImg = albumImg;
     }
 }

@@ -23,6 +23,7 @@ public class MusicControl {
     @PostConstruct
     public void init(){
             musics.put("35847388","https://m801.music.126.net/20190611112600/808581cc6c66d8d06f7840382042726a/jdyyaac/070c/0709/0058/0fb288e90a0c36e714977232f4a290e8.m4a");
+            musics.put("16435049","https://win-web-ra01-sycdn.kuwo.cn/da4bb3377dc336720d5163d4cd638cd2/5d009502/resource/n2/128/8/90/3648166111.mp3");
     }
 }
 
