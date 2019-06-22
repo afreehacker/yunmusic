@@ -10,7 +10,7 @@
 <img class="song-albumImg" th:src="${song.albumImg}" />
 <h1 class="song-name" th:text="${song.name}"></h1>
 
-<a href="#" th:data-id="${song.id}" class="player-btn">播放</a>
+<a href="#" th:data-id="${song.id}" id="change-song" th:src="${song.btn}">播放</a>
 <audio id="player" style="display: none" src="" controls="controls"></audio>
 
 <h3>
@@ -102,6 +102,9 @@
                 $('.song-lyrics').html(data.lyrics);
                 $('.song-name').html(data.name);
                 $('.song-singer').html(data.singer);
+
+                $('#change-song').attr('src',data.btn);
+
                 // $("#player").show();
                 // $("#player").attr("src",data);
                 // document.getElementById("player").play();

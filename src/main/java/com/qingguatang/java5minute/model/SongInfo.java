@@ -15,6 +15,16 @@ public class SongInfo {
     private String lyrics;
     //专辑图片
     private String albumImg;
+    //切换播放按钮
+    private String btn;
+
+    public String getBtn() {
+        return btn;
+    }
+
+    public void setBtn(String btn) {
+        this.btn = btn;
+    }
 
     public String getId() {
         return id;

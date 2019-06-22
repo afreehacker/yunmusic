@@ -62,6 +62,9 @@ public class SongInfoControl {
         songInfo=new SongInfo();
         songInfo.setId("16435049");
         songInfo.setName("故乡");
+
+        songInfo.setBtn("https://win-web-ra01-sycdn.kuwo.cn/ddb1c71963052323e132eb5e912e5db6/5d0dd9fc/resource/n2/128/8/90/3648166111.mp3");
+
         songInfo.setSinger("许巍");
         songInfo.setAlbumName("珍藏许巍作品全集");
         songInfo.setCommentCount(11);
